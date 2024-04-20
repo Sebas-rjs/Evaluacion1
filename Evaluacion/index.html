@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>BurgerTopia</h1>
+            <h2>Hamburguesas 100% Vacuno</h2>
+            <link rel="stylesheet" href="estilo.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        </div>
+    </header>
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestra historia</h2>
+            <p class="parrafo">BurgerTopia es un establecimiento emblemático que ha deleitado a sus clientes con deliciosas hamburguesas durante las últimas dos décadas. <br> 
+                Desde nuestra apertura en 2002, BurgerTopia se ha ganado una reputación como uno de los mejores lugares para disfrutar de hamburguesas de alta calidad en la ciudad.</p>
+        </div>
+    </section>
+    <section class="contenedor" id="ofertas">
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icon">
+                    <img src="img/1.jpg" alt="">
+                    <i class="bi bi-cup-straw"></i>
+                </div>
+                <h3 class="titulo-card">Hamburguesa + Bebida + Papas </h3>
+                <P>$7.990</P>
+                <a href="" class="boton">Pedir Vía Online</a>
+            </article>
+ 
+            <article class="card">
+                <div class="margen-icon">
+                    <img src="img/hamburguesamaspapas.webp" alt="">
+                    <i class="bi bi-cup-straw"></i>
+                </div>
+                <h3 class="titulo-card">Hamburguesa + Papas</h3>
+                <P>$5.990</P>
+                <a href="" class="boton">Pedir Vía Online</a>
+            </article>
+  
+            <article class="card">
+                <div class="margen-icon">
+                    <img src="img/hambuerguesa.jpg" alt="">
+                    <i class="bi bi-cup-straw"></i>
+                </div>
+                <h3 class="titulo-card">Hamburguesa Tradicional</h3>
+                <P>$4.990</P>
+                <a href="" class="boton">Pedir Vía Online</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestros productos</h2>
+            <div class="contenedor-galeria">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.avif" alt="">
+                <img src="img/hambuerguesa.jpg" alt="">
+                <img src="img/hamburguesa-bebida-botella-alcohol-fondo_7023-26761.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de Pedido</h2>
+            <form class="Formulario">
+                <input type="text" id="nombre" name="nombre" class="input input-ancho" placeholder="Ingresa nombre">
+                <input type="direccion" id="direccion" name="direccion" class="input input-ancho" placeholder="Ingresa Dirección">
+                <textarea name="msj" id="direccion" class="input textarea-ancho" placeholder="Ingresa mensaje"  cols="30" rows="10">    
+                </textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Pedir" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>BurgerTopia</p>
+        <p>Los Topia#137. Los Ángeles</p>
+        <p>burger@topia.cl</p>
+    </footer>
+</body>
+</html>
